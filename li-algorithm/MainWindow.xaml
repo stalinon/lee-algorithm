@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:li_algorithm"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" MaxHeight="560" MaxWidth="460" MinHeight="560" MinWidth="460">
     <Grid>
-        
+        <Canvas 
+        x:Name="CanvasMap"
+        HorizontalAlignment="Center" 
+        Height="400" 
+        VerticalAlignment="Center"
+        Width="400">
+
+        </Canvas>
+        <Button 
+            x:Name="btn"
+            Content="->"
+            Height="20" Margin="366,20,26,479"/>
+        <Label 
+            x:Name="label"
+            Content=" " 
+            HorizontalAlignment="Left" 
+            Margin="82,20,0,0" 
+            VerticalAlignment="Top"/>
+        <Label Content="Шагов:" HorizontalAlignment="Left" Margin="29,20,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
